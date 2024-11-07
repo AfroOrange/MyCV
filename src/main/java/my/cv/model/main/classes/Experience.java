@@ -1,4 +1,4 @@
-package my.cv.model;
+package my.cv.model.main.classes;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
@@ -6,7 +6,6 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 import java.time.LocalDate;
-import java.util.List;
 
 public class Experience {
 

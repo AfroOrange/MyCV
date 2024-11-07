@@ -1,4 +1,4 @@
-package my.cv.model;
+package my.cv.model.enums;
 
 public enum PhoneType {
     HOME,

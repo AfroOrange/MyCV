@@ -1,4 +1,4 @@
-package my.cv.model;
+package my.cv.model.main.classes;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
@@ -7,7 +7,7 @@ import javafx.beans.property.StringProperty;
 
 import java.time.LocalDate;
 
-public class Degree {
+public class Title {
 
     private final ObjectProperty<LocalDate> startDate = new SimpleObjectProperty<>();
     private final ObjectProperty<LocalDate> endDate = new SimpleObjectProperty<>();

@@ -1,4 +1,4 @@
-package my.cv.model;
+package my.cv.model.attributes;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -6,7 +6,6 @@ import javafx.beans.property.StringProperty;
 public class Nationality {
 
     private final StringProperty denomination = new SimpleStringProperty();
-
 
     public String getDenomination() {
         return denomination.get();

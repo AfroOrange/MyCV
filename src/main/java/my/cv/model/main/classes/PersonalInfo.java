@@ -1,7 +1,8 @@
-package my.cv.model;
+package my.cv.model.main.classes;
 
 import javafx.beans.property.*;
 import javafx.collections.ObservableList;
+import my.cv.model.attributes.Nationality;
 
 import java.time.LocalDate;
 

@@ -55,6 +55,7 @@ public class WebDialog extends Dialog<Websites> implements Initializable {
 
         setResultConverter(this::onResult);
 
+        webTextField.setText("http://");
         websites.bind(webTextField.textProperty());
     }
 
